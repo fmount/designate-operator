@@ -60,7 +60,6 @@ type DesignateUnboundSpecBase struct {
 }
 
 type UnboundOverrideSpec struct {
-	// +listType=atomic
 	Services []service.OverrideSpec `json:"services,omitempty"`
 }
 

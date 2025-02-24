@@ -91,7 +91,6 @@ type DesignateBackendbind9SpecBase struct {
 }
 
 type Bind9OverrideSpec struct {
-	// +listType=atomic
 	Services []service.OverrideSpec `json:"services,omitempty"`
 }
 

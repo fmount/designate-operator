@@ -240,7 +240,6 @@ spec:
                           type: object
                       type: object
                     type: array
-                    x-kubernetes-list-type: atomic
                 type: object
               replicas:
                 default: 1

@@ -86,7 +86,6 @@ type DesignateMdnsSpecBase struct {
 }
 
 type MdnsOverrideSpec struct {
-	// +listType=atomic
 	Services []service.OverrideSpec `json:"services,omitempty"`
 }
 
